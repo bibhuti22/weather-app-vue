@@ -27,7 +27,7 @@
         {{ weatherData.weather[0].description }}&deg;
       </p>
       <hr class="border-white border-opacity-10 w-full mt-4" />
-      <div class="max-w-screen-md w-full py-12">
+      <div class="max-w-screen-md w-full py-5">
         <h1 class="text-white mb-4 text-lg font-bold">
           5 day / 3 hour Weather Forecast
         </h1>
