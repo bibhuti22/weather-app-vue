@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p v-if="!isFetchReady && !isFetchError">Loading....</p>
+    <p v-if="!isFetchReady && !isFetchError" class="text-center text-white mt-20">Loading....</p>
     <div v-else class="flex flex-col text-white items-center">
       <div
         v-if="isPreview === 'false' ? false : true"
